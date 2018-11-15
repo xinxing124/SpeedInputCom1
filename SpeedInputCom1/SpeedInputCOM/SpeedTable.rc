@@ -1,0 +1,218 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\SpeedTable.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SpeedTable.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SPEEDTABLE_DIALOG DIALOG  0, 0, 320, 177
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+FONT 9, "MS Sans Serif"
+BEGIN
+    CTEXT           "照明",IDC_STATIC,213,26,33,9
+    CONTROL         147,IDC_CAMERA,"Static",SS_BITMAP | SS_NOTIFY,252,53,61,33
+    CONTROL         142,IDC_PAINT_STATIC,"Static",SS_BITMAP | SS_NOTIFY,7,6,198,166
+    CTEXT           "相机",IDC_STATIC,213,67,33,10
+    CONTROL         147,IDC_RUN,"Static",SS_BITMAP | SS_NOTIFY,252,94,61,33
+    CONTROL         147,IDC_LIGHTING,"Static",SS_BITMAP | SS_NOTIFY,252,13,61,33
+    CTEXT           "运行",IDC_STATIC,213,108,33,10
+    PUSHBUTTON      "退出",IDC_BUT_EXIT,208,144,34,28,NOT WS_VISIBLE
+    CONTROL         147,IDC_BACK,"Static",SS_BITMAP | SS_NOTIFY,252,134,61,33
+    CTEXT           "倒车",IDC_STATIC,213,147,33,10
+END
+
+IDD_INPUT_DIALOG DIALOG  0, 0, 320, 177
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+FONT 9, "MS Sans Serif"
+BEGIN
+    CTEXT           "里程",IDC_STC_1,7,27,26,10
+    EDITTEXT        IDC_EDIT1,36,19,83,22,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "0",IDC_BUT_0,125,125,42,31
+    PUSHBUTTON      "1",IDC_BUT_1,125,89,42,31
+    PUSHBUTTON      "2",IDC_BUT_2,171,89,42,31
+    PUSHBUTTON      "3",IDC_BUT_3,217,89,42,31
+    PUSHBUTTON      "4",IDC_BUT_4,125,52,42,31
+    PUSHBUTTON      "5",IDC_BUT_5,171,52,42,31
+    PUSHBUTTON      "6",IDC_BUT_6,217,52,42,31
+    PUSHBUTTON      "7",IDC_BUT_7,125,15,42,31
+    PUSHBUTTON      "8",IDC_BUT_8,171,15,42,31
+    PUSHBUTTON      "9",IDC_BUT_9,217,15,42,31
+    PUSHBUTTON      ".",IDC_BUT_10,171,125,42,31
+    PUSHBUTTON      "OK",IDC_BUT_11,217,125,42,31
+    CTEXT           "板号",IDC_STC_2,7,59,27,10
+    EDITTEXT        IDC_EDIT2,36,51,82,22,ES_AUTOHSCROLL
+    PUSHBUTTON      "TAB",IDC_BUT_12,264,15,42,31
+    PUSHBUTTON      "BS",IDC_BUT_13,264,52,42,31
+    PUSHBUTTON      "C",IDC_BUT_14,264,89,42,31
+    PUSHBUTTON      "RT",IDC_BUT_15,264,125,42,31
+    LTEXT           "注意：\n1.TAB输入切换\n2.BS退格键\n3.C清空输入\n4.OK确认输入\n5.RT取消返回",IDC_STC_NOTES,15,93,101,62,SS_NOTIFY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "SpeedInputCOM.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "SpeedInputCOM.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SPEEDTABLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_INPUT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 172
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Speed2.bmp"
+IDB_BITMAP2             BITMAP                  "Table13.bmp"
+IDB_BITMAP3             BITMAP                  "Table23.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\SpeedTable.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
